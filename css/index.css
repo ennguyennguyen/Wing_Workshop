@@ -1,3 +1,7 @@
+/*---------------------------------------------------------*/
+/*----------------- INDEX PAGE ----------------------------*/
+
+/*-- GENERAL --*/
 header > p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
@@ -7,6 +11,7 @@ header > p {
     margin: 15px;
 }
 
+/*-- NAVIGATION BAR --*/
 .navbar {
     border: none;
 }
@@ -49,35 +54,40 @@ nav.navbar {
     background-color: #FFE29A;
 }
 
-#main-section {
-    background-image: url("../images/main_img1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 800px;
+/*-- CAROUSEL EFFECT --*/
+div.item {
+    height: 70%;
     padding-top: 0;
     margin-top: 0;
 }
 
-#main-content > #shop-main {
-    text-align: center;
-    margin: 0 auto;
+/*-- MAIN FONT OVER CAROUSEL --*/
+#shop-name-main > p, #shop-main > a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 #shop-name-main > p {
-    color: white;
     font-size: 120px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding-top: 16px;
-    margin-top: 0;
-    text-align: center;
+    font-weight: bold;
 }
 
-#shop-main > a {
-    color: white;
+#shop-main > a{
     font-size: 50px;
     text-decoration: underline;
 }
 
+.main-content {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 auto;
+    z-index: 1;
+    position: absolute;
+}
+
+/*-- FOLLOW US SECTION --*/
 #follow-us {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
@@ -91,6 +101,7 @@ nav.navbar {
     height: 300px;
 }
 
+/*-- FOOTER MENU --*/
 #footer-menu {
     background-color: #F0DFB9;
     min-height: 200px;
@@ -130,6 +141,63 @@ footer > p {
     margin: 15px;
 }
 
+/*---------------------------------------------------------*/
+/*-------------- ABOUT US PAGE ----------------------------*/
+.about {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 0 auto 10%;
+}
+
+#about-title > p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #8b0000;
+}
+
+#about-img > img {
+    border-radius: 4px;
+    width: 500px;
+    padding-bottom: 2%;
+}
+
+#about-content > p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #716957;
+}
+
+#see-our-collection > a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #8b0000;
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------------*/
+/*-------------- CONTACT US PAGE --------------------------*/
+
+.contact {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: 0 auto 10%;
+}
+
+#contact-title > p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #8b0000;
+}
+
+#contact-content > p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #716957;
+}
 
 
 

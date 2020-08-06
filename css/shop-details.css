@@ -1,0 +1,128 @@
+/*-- GENERAL --*/
+header > p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #8b0000;
+    text-align: center;
+    margin: 15px;
+}
+
+/*-- NAVIGATION BAR --*/
+.navbar {
+    border: none;
+}
+
+ul.navbar-nav {
+    text-align: center;
+    margin: auto;
+}
+
+nav.navbar {
+    background-color: #FFE29A;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.custom-navbar > div{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #8b0000;
+    background-color: #FFE29A;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover, .dropdown-menu {
+    color: #8b0000;
+    background-color: #FFE29A;
+}
+
+.navbar-inverse .navbar-nav>li>a, .dropdown-menu>li>a {
+    color: #8b0000;
+    background-color: #FFE29A;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #8b0000;
+    background-color: #FFE29A;
+}
+
+/*-- SHOP DETAILS --*/
+.all-product > p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+.displayed-items {
+    margin: 0 auto;
+    padding-right: 5%;
+    padding-left: 10%;
+}
+
+div.img-wrapper {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.img-wrapper {
+    padding: 0;
+    float: left;
+    margin: 5% 5% 0;
+}
+
+div.sub-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #8b0000;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/*-- FOOTER MENU --*/
+#footer-menu {
+    background-color: #F0DFB9;
+    min-height: 200px;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer-inner-menu {
+    float: left;
+    width: 25%;
+}
+
+.footer-inner-menu > p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #716957;
+}
+
+.shop-policy > li, .shop-info > li, .social-media > li {
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+.shop-policy > li > a, .shop-info > li > a, .social-media > li > a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #716957;
+}
+
+footer > p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #716957;
+    text-align: center;
+    margin: 15px;
+}
